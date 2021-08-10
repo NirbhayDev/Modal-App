@@ -1,0 +1,45 @@
+.navBg{background: #0B0E12; padding:20px 0}
+.btnHeadLogin {
+    font-size: 16px;
+    color: #F90C67;
+    padding: .8rem 2rem;
+    background: #fff;
+    border-color: #fff;
+}
+.logo{height: 32px;}
+.navSideSec{justify-content: flex-end !important;}
+.navSideSec ul:first-child {
+    border-right: 1px solid #fff;
+}
+.navbar .navSideSec ul:first-child li a {
+    padding: .2rem 1.2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.navSideSec .avatar{height: 40px; width: 40px;}
+.navbar .navSideSec ul li a.notification-bell{color:#fff; margin: 0 .8rem;}
+.navbar .navSideSec ul li a.notification-bell svg {
+    height: 1.3em;
+    width: 1.3em;
+}
+.dropdownMenu {
+    position: absolute;
+    background: #fff;
+    width: 170px;
+    right:-5px;
+    border-radius: 5px;
+}
+
+.dropdownMenu:before {
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 16px;
+    top: -10px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.btnNavAvtar{border: 0; background: none; outline: none !important;}

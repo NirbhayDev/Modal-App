@@ -1,0 +1,29 @@
+.main_content {
+  height: calc(100vh - 96px);
+}
+.main-heading {
+  font-size:5.5rem;
+  color: #fff;
+}
+.sub-heading {
+      font-size: 1.6rem;
+      color: #fff;
+      font-weight: lighter;
+}
+
+.home-page {
+  background: linear-gradient(0deg, #0b0e12, #0b0e12);
+  box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.07);
+}
+.btn2 {
+  background: linear-gradient(0deg, #f90c67, #f90c67), #fff;
+  padding:1.2rem 0;
+  color: #fff; 
+  border-radius: 70px; width: 35%;
+}
+.btn3 {
+  background: linear-gradient(0deg, #ff755c, #ff755c), #fff;
+}
+
+@media (max-width: 767px) {
+}

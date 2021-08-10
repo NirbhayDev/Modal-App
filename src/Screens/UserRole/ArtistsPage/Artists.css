@@ -1,0 +1,56 @@
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5{font-weight:400;}
+strong{font-weight:700;}
+
+h1{font-size:86px;}
+h2{font-size:35px;}
+h3{font-size:24px;}
+h4,.h4{font-size:18px;}
+h5{font-size:16px;}
+h6{font-size:15px;}
+
+.font-9{font-size:9px;}
+.font-10{font-size:10px;}
+.font-12{font-size:12px;}
+.font-1{font-size: 15px;}
+.font-2{font-size: 45px; font-weight: lighter;}
+.sm-line-height{line-height:13.5px;}
+.tp-bdr{top:10px;}
+.text-peach{color:#FF755C;}
+.black-bg{background-color:#0B0E12;}
+.brown-bg{background-color:#212121;}
+.peach-bg{background-color:#FF755C;}
+.peach-border{border-color:#FF755C;}
+.black-bgd{background-color: #13161b;}
+.blackbg {background-color: #11161d;}
+.rounded-xl{border-radius:16px;}
+
+
+.modelImg{overflow: hidden; border-radius: 15px; position: relative;}
+.modelImg .btnLike {
+    position: absolute;
+    outline: none;
+    top: 10px; left:10px;
+}
+.modelImg img {
+    width: 100%;
+    height: 354px;
+    object-fit: cover;
+}
+.content p{font-weight: lighter;}
+.ModListsubtext {
+    font-size: 15px;
+    color: #647685; margin-bottom: 10px;
+}
+
+.artRightCont ul li {
+    width: 100%;
+}
+.artRightCont ul li p:first-child {
+    width: 40%;
+}
+.artRightCont ul li p:last-child {
+    width: 60%;
+}
+

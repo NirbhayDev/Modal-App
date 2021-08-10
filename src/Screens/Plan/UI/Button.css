@@ -1,0 +1,17 @@
+.service-button {
+  color: #ffffff;
+  padding: 10px 40px;
+  background: #ff196e;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 170px;
+}
+.service-button-outline {
+  border: 2px solid #ff196e;
+  color: #ffffff;
+  padding: 10px 40px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 170px;
+}

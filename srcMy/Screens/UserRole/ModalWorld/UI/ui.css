@@ -1,0 +1,14 @@
+.nav-pills li{margin-right: 20px;}
+.nav-pills li a {
+    font-size: 18px;
+    padding: .5rem 1.5rem;
+}
+.btn.orngBg {background: #FF755C;}
+.btn.orngBg:hover {
+    background: #d55a44;
+}
+.btn.orngBgTrans {
+    background: none;
+    border-color: #FF755C;
+    color: #FF755C;
+}

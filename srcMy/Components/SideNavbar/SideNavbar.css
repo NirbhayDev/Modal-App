@@ -1,0 +1,39 @@
+.sidePanel{
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 298px;
+  display: flex;
+  align-items: flex-start; z-index: 9999;
+}
+.sideNavSec {
+  width: 250px;
+  background: #0b0e13;
+  margin-bottom: 12px;
+  border-radius: 0 15px 15px 0;
+  padding: 15px 0;
+  box-shadow: 1px 1px 4px rgb(108, 108, 108,.12);
+}
+.sideNavSec h4 {
+  font-size: 15px;
+  color: #fff;
+  margin: 0 30px 20px 30px;
+}
+.sideNavSec ul li a.nav-link {
+  color: #fff;
+  padding: 0.4rem 0 0.4rem 3rem;
+  font-size: 14px;
+  transition: all linear 0.2s;
+}
+.sideNavSec ul li a.nav-link:hover {
+  color: #ff196e;
+  background: #000;
+}
+.btnSideNav {
+  background: #0B0E12;
+  color: #fff;
+  border: 0;
+  margin-top: 110px;
+  padding: 12px;
+  border-radius: 0 4px 4px 0;outline: none !important; position: relative;
+}

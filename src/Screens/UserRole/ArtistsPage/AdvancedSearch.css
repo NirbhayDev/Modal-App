@@ -1,0 +1,46 @@
+.heading1{font-size:30px; font-weight: lighter;}
+.select-box {
+  position: relative;
+}
+.advSeLabel {
+  font-size: 15px;
+  color: #647685;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.select-box select {
+  height: 45px;
+  padding:10px 20px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 100%;
+  appearance: none;
+  border:none;
+  color: white;
+  background: #11161D;
+  border-radius: 10px;
+}
+.select-box::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -4px;
+  border-top: 8px solid #ccc;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+.select-box select:focus {
+  border: 1px solid white;
+}
+@media screen and (max-width:767px) {
+   
+    .heading1{font-size:25px;}
+}
+@media screen and (max-width:991px){
+  .select-box { max-width: 100%;
+  width: 100%; }
+
+}

@@ -1,0 +1,171 @@
+.info-card_1 {
+  align-items: center;
+
+  background-color: #0b0e12;
+  padding: 10px 20px;
+}
+.avatar {
+  height: 40px;
+  width: 40px; object-fit: cover;
+}
+.info-card_2 {
+  align-items: center;
+
+  background-color: #0b0e12;
+  padding: 10px 20px;
+}
+.info-card_2 h4 {
+  color: #f50057;
+}
+.mediabtn {
+  display: flex;
+  justify-content: space-between;
+}
+.postbtn {
+  color: white !important;
+  background-color: #f50057 !important;
+}
+.alarmicon {
+  color: #f50057;
+  font-size: 25px !important;
+}
+.vertical-timeline-element-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: none !important;
+  -webkit-box-shadow: none !important;
+}
+.vertical-timeline-element-icon svg {
+  display: block;
+  width: 74px !important;
+  height: 74px !important;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -45px !important;
+  margin-top: -35px !important;
+}
+.arrowright {
+  margin-left: 30px !important;
+}
+.arrowdown {
+  width: 74px !important;
+  height: 74px !important;
+  margin-top: -25px !important;
+  color: #f50057;
+}
+.vertical-timeline {
+  width:100% !important; max-width: inherit !important;
+}
+.vertical-timeline-element-content{box-shadow: none;}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  color: white !important;
+  font-weight: 500;
+  font-size: 12px;
+}
+.whathppng {
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+}
+.modelimg {
+  width: 100%;
+}
+.vertical-timeline-element-subtitle {
+  margin-top: -7px !important;
+  font-weight: 300 !important;
+  color: gray;
+}
+/* .vertical-timeline-element--work {
+  margin-top: -50px !important;
+} */
+.vertical-timeline-element--work--2 {
+  margin-top: -600px !important;
+}
+.vertical-timeline-element--education--1 {
+  margin-top: -450px !important;
+}
+.appntmentdiv {
+  padding: 40px 30px;
+  background-color: black;
+}
+.checkicn {
+  font-size: 40px !important;
+}
+.cmntboxdiv {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.rplydiv {
+  background-color: #0b0e12;
+}
+.dwnrply {
+  background: black;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.vertical-timeline-element--work--3 {
+  margin-top: -550px !important;
+}
+.vertical-timeline-element--work--4 {
+  margin-top: -150px !important;
+}
+.vertical-timeline-element--education--7 {
+  margin-top: -920px !important;
+  padding: 0 !important;
+}
+.vertical-timeline-element--education--10 {
+  margin-top: -630px !important;
+}
+@media (max-width: 768px) {
+  .timelinediv {
+    overflow-x: scroll;
+  }
+  .vertical-timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #fff;
+    display: none !important;
+  }
+  .vertical-timeline-element-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    display: none !important;
+  }
+  .vertical-timeline-element {
+    position: relative;
+    margin: 2em 0;
+    margin-top: 20px !important;
+    align-content: center;
+  }
+  .vertical-timeline-element--education--10 {
+    margin-top: -60px !important;
+  }
+}
+@media (max-width: 375px) {
+  .scndcol {
+    margin-top: 20px !important;
+  }
+  .vertical-timeline-element--education--10 {
+    margin-top: -100px !important;
+  }
+}

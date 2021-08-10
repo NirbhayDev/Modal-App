@@ -1,0 +1,24 @@
+.font1{font-size: 45px;}
+.font2{font-size: 20px;}
+.font3{font-size: 15px;}
+.font4{font-size: 18px;}
+.font5{font-size: 36px;}
+.bg1{background-color: #FF196E;}
+.text2{color: #32A808;}
+.cardbg{background-color: #0B0E13;}
+.footerbg{background-color: #0B0E12;}
+.sectionbg{background-color:#11161D;}
+.card1-bg{ background-color:
+    rgb(173 173 173 / 7%);}
+
+    @media screen and (max-width:991px) {
+        .font1{font-size: 35px;}
+        .m-text-center{text-align: center;}
+    
+    }
+    @media screen and (max-width:767px) {
+        .font1{font-size: 25px;}
+        .m-text-center{text-align: center;}
+    
+    }
+    

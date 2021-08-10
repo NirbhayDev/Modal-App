@@ -1,0 +1,103 @@
+#login-page {
+  background: linear-gradient(0deg, #0b0e12, #0b0e12);
+  box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.07);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-titles {
+  font-family: Lemonada;
+  font-weight: bold;
+  font-size: 35px;
+  color: #ffffff;
+}
+.login_title {
+  font-weight: 300;
+  font-size: 35px;
+  color: #ffffff;
+}
+.login-subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+}
+.input-box {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 350px;
+  padding: 9px;
+  margin-top: 30px;
+}
+.input-box:invalid {
+  border: red;
+}
+span {
+  font-size: 10px;
+  color: #ff196e;
+}
+.login-button {
+  color: #ffffff;
+  padding: 12px 70px;
+  background: #ff196e;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.sign-up {
+  font-size: 15px;
+  color: #e8e8e8;
+  margin-top: 10px;
+}
+.links {
+  font-weight: 500;
+  font-size: 15px;
+  color: #ff196e;
+  padding: 0 4px;
+}
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardBorder {
+  position: relative;
+}
+.cardBorder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ffffff;
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .cardBorder::before {
+    border: none;
+  }
+}
+@media (max-width: 375px) {
+  .formsbmt {
+    padding: 0px !important;
+    margin: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  .formsbmt {
+    padding: 40px !important;
+    margin: 40px !important;
+  }
+}
+.entremail {
+  margin-top: 20px !important;
+}
+.signbtn {
+  margin-top: -20px !important;
+}
+.sbmtbtn {
+  margin-top: -30px !important;
+}
+.rsetpass {
+  margin-bottom: 20px !important;
+}

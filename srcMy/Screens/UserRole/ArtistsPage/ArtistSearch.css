@@ -1,0 +1,27 @@
+
+.searchField {
+  background: #000; border: 0; border-radius: 10px; padding:0 20px;
+}
+.btnSearch {
+  background-color: #ff196e;
+  color: #ffffff;
+  border-radius: 10px !important;
+  width: 10rem;
+  border:none;
+  outline:none; height: 45px;
+}
+.bg-line {
+  color: #ff196e;
+}
+.btnAdvSearch{outline: none !important; padding:0 !important}
+.btnAdvSearch span svg {height: 1.8em; width: 1.8em;}
+@media screen and (max-width:767px) {
+    .font-2{font-size: 30px;}
+    h2{font-size:30px;}
+    .input-group-text {
+        width: 5rem;
+        border: 2px solid #212121;
+        outline: 0px;
+      }
+
+}

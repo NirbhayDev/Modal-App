@@ -1,0 +1,10 @@
+.editProfile .form-label {
+    color: #647685;
+    font-size: 14px;
+}
+.editProfile .form-control {
+    background: #0B0E13; height: 55px; border-radius: 15px; border:0; color:#fff; outline: none;
+}
+.editProfile textarea.form-control{min-height: 180px; resize: none;}
+.editProfile hr{margin: 40px 0;}
+.editProfile .signup-button{min-width: 150px;}
